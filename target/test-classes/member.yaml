@@ -1,0 +1,20 @@
+---
+- name: "张三"
+  account: "zhangsan"
+  mobile: "13011110001"
+
+- name: "李四"
+  account: "lisi"
+  mobile: "13011110002"
+
+- name: "王二"
+  account: "wanger"
+  mobile: "13011110003"
+
+- name: "赵五"
+  account: "zhaowu"
+  mobile: "13011110004"
+
+- name: "刘六"
+  account: "liuliu"
+  mobile: "13011110005"

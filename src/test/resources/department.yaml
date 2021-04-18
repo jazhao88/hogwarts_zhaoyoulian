@@ -1,0 +1,15 @@
+---
+- name: "研发部"
+  parent: "LotusAutoTest"
+
+- name: "测试与中试部"
+  parent: "研发部"
+
+- name: "产品部"
+  parent: "研发部"
+
+- name: "前端开发"
+  parent: "研发部"
+
+- name: "后端开发"
+  parent: "研发部"
