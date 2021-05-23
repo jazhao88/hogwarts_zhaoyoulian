@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99e97757-0aa4-4033-b5c3-face5aaf0ceb" name="Default Changelist" comment="" />
+    <list default="true" id="99e97757-0aa4-4033-b5c3-face5aaf0ceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mock/WireMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,12 +19,17 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hogwartsjava5_zhaoyoulian$WireMockTest_mock.ic" NAME="WireMockTest.mock Coverage Results" MODIFIED="1621757755121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mock.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/TagTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="374">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,28 +59,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Page/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="1224">
               <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#2559#2560#0" expanded="true" />
-                <element signature="e#2642#2643#0" expanded="true" />
-                <element signature="e#2762#2763#0" expanded="true" />
-                <element signature="e#2813#2814#0" expanded="true" />
-                <element signature="e#2928#2929#0" expanded="true" />
-                <element signature="e#3012#3013#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Page/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
+            <state relative-caret-position="812">
               <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mock/WireMockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,12 +110,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Page/WeWork.java" />
         <option value="$PROJECT_DIR$/src/test/java/Page/MemberPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/WechartTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Model/Department.java" />
         <option value="$PROJECT_DIR$/src/test/resources/member.yaml" />
@@ -106,6 +132,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Page/ContactPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCase/TagTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/tag.yaml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/mock/WireMockTest.java" />
       </list>
     </option>
   </component>
@@ -116,86 +144,73 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="210" />
-    <option name="y" value="175" />
-    <option name="width" value="1637" />
-    <option name="height" value="1100" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AutoTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="943" />
+    <option name="y" value="507" />
+    <option name="width" value="1773" />
+    <option name="height" value="1006" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwartsjava5_zhaoyoulian" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618752049359" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hogwartsjava5" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621762527858" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -224,23 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TagTest.addDepartmentWithDataProvider">
-    <configuration name="DepartmentTest.addDepartmentWithDataProvider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest_zhaoyoulian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCase" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.DepartmentTest" />
-      <option name="METHOD_NAME" value="addDepartmentWithDataProvider(Model.Department)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WireMockTest.mock">
     <configuration name="MemberTest.addMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTest_zhaoyoulian" />
       <extension name="coverage">
@@ -304,13 +303,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WireMockTest.mock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mock" />
+      <option name="MAIN_CLASS_NAME" value="mock.WireMockTest" />
+      <option name="METHOD_NAME" value="mock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WireMockTest.mock" />
         <item itemvalue="JUnit.TagTest.addDepartmentWithDataProvider" />
         <item itemvalue="JUnit.TagTest" />
         <item itemvalue="JUnit.TagTest.addTag" />
         <item itemvalue="JUnit.MemberTest.addMember" />
-        <item itemvalue="JUnit.DepartmentTest.addDepartmentWithDataProvider" />
       </list>
     </recent_temporary>
   </component>
@@ -326,31 +341,11 @@
       <updated>1618637986173</updated>
       <workItem from="1618637988813" duration="14371000" />
       <workItem from="1618716784728" duration="32212000" />
+      <workItem from="1621755732248" duration="6144000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TagTest_addTag - 2021.04.18 at 20h 34m 25s.xml">
-      <configuration name="TagTest.addTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagTest_addTag - 2021.04.18 at 20h 35m 21s.xml">
-      <configuration name="TagTest.addTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagTest_addTag - 2021.04.18 at 20h 48m 03s.xml">
-      <configuration name="TagTest.addTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagTest_addTag - 2021.04.18 at 20h 51m 48s.xml">
-      <configuration name="TagTest.addTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagTest_addTag - 2021.04.18 at 20h 57m 47s.xml">
-      <configuration name="TagTest.addTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagTest_addTag - 2021.04.18 at 20h 58m 25s.xml">
-      <configuration name="TagTest.addTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagTest_addTag - 2021.04.18 at 21h 00m 51s.xml">
-      <configuration name="TagTest.addTag" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TagTest - 2021.04.18 at 21h 14m 33s.xml">
       <configuration name="TagTest" configurationId="JUnit" />
     </history-entry>
@@ -360,9 +355,30 @@
     <history-entry file="TagTest_addDepartmentWithDataProvider - 2021.04.18 at 21h 19m 02s.xml">
       <configuration name="TagTest.addDepartmentWithDataProvider" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WireMockTest_mock - 2021.05.23 at 16h 13m 39s.xml">
+      <configuration name="WireMockTest.mock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WireMockTest_mock - 2021.05.23 at 16h 22m 33s.xml">
+      <configuration name="WireMockTest.mock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WireMockTest_mock - 2021.05.23 at 16h 32m 23s.xml">
+      <configuration name="WireMockTest.mock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WireMockTest_mock - 2021.05.23 at 16h 57m 33s.xml">
+      <configuration name="WireMockTest.mock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WireMockTest_mock - 2021.05.23 at 17h 23m 47s.xml">
+      <configuration name="WireMockTest.mock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WireMockTest_mock - 2021.05.23 at 17h 24m 06s.xml">
+      <configuration name="WireMockTest.mock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WireMockTest_mock - 2021.05.23 at 17h 31m 47s.xml">
+      <configuration name="WireMockTest.mock" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46583000" />
+    <option name="totallyTimeSpent" value="52727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,10 +390,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="327" y="470" width="1773" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05078809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +402,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.051167965" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21580188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43270302" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,13 +413,14 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32925472" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.50075185" side_tool="true" visible="true" weight="0.17338003" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" sideWeight="0.49924812" visible="true" weight="0.17338003" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -432,13 +449,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/co.yo" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Page.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.9/jackson-dataformat-yaml-2.9.9.jar!/com/fasterxml/jackson/dataformat/yaml/YAMLFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -457,13 +467,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Page/MemberPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Page/MemberPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Model/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -576,7 +580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/TagTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="374">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -600,26 +604,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Page/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="1224">
           <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#2559#2560#0" expanded="true" />
-            <element signature="e#2642#2643#0" expanded="true" />
-            <element signature="e#2762#2763#0" expanded="true" />
-            <element signature="e#2813#2814#0" expanded="true" />
-            <element signature="e#2928#2929#0" expanded="true" />
-            <element signature="e#3012#3013#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Page/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
+        <state relative-caret-position="812">
           <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mock/WireMockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
